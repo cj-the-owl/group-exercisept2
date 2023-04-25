@@ -1,0 +1,112 @@
+*{
+    text-align: center;    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+  /* CSS code for the logo */
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 50px;
+}
+
+body{
+    background-image: url(./assests/contact-back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+h1{
+    color: #fff;
+    font-size: 30px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(255, 255, 255);
+    width: 600px;
+    margin: 0 auto;
+    height: 400px;
+    padding: 30px;
+    text-align: center;
+}
+
+.name{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300px;
+    border: 0px solid black;
+    margin: 5px;
+    background-color: rgb(246, 91, 246);
+    width: 300px;
+} 
+.email{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300px;
+    border: 0px solid black;
+    margin: 5px;
+    background-color: rgb(246, 91, 246);
+    width: 400px;
+
+}
+
+.country{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300px;
+    border: 0px solid black;
+    margin: 5px;
+    background-color: rgb(246, 91, 246);
+    width: 400px;
+}
+
+.message{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 300px;
+    border: 0px solid black;
+    margin: 5px;
+    background-color: rgb(246, 91, 246);
+    width: 350px;
+}
+
+.button{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 300px;
+    margin-top: 25px;
+}
+  
+.divider{
+    width: 100%;
+    height: 3px;
+    border-top: 5px solid black;
+    margin: 30px 0;
+}
+img {
+    margin: 2px;
+    width: 20px;
+    height: 20px;
+    margin-right:10px;
+}    
